@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85003B7423BDC4FC004A6430 /* tuqiu.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 85003B7323BDC4FC004A6430 /* tuqiu.entitlements */; };
+		85003B7623BDC4FC004A6430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003B7523BDC4FC004A6430 /* AppDelegate.swift */; };
+		85003B7923BDC4FC004A6430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85003B7723BDC4FC004A6430 /* Main.storyboard */; };
+		85003B7B23BDC4FC004A6430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003B7A23BDC4FC004A6430 /* ViewController.swift */; };
+		85003B7D23BDC4FE004A6430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85003B7C23BDC4FE004A6430 /* Assets.xcassets */; };
+		85003B8823BDC4FE004A6430 /* tuqiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003B8723BDC4FE004A6430 /* tuqiuTests.swift */; };
+		85003B9323BDC4FE004A6430 /* tuqiuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003B9223BDC4FE004A6430 /* tuqiuUITests.swift */; };
+		85003B9A23BDC4FE004A6430 /* tuqiu Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 85003B9923BDC4FE004A6430 /* tuqiu Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85003B9F23BDC4FE004A6430 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85003B9E23BDC4FE004A6430 /* Cocoa.framework */; };
+		85003BA223BDC4FE004A6430 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003BA123BDC4FE004A6430 /* SafariExtensionHandler.swift */; };
+		85003BA423BDC4FE004A6430 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85003BA323BDC4FE004A6430 /* SafariExtensionViewController.swift */; };
+		85003BA723BDC4FE004A6430 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85003BA523BDC4FE004A6430 /* SafariExtensionViewController.xib */; };
+		85003BAA23BDC4FE004A6430 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 85003BA923BDC4FE004A6430 /* script.js */; };
+		85003BAC23BDC4FE004A6430 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 85003BAB23BDC4FE004A6430 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85003B8423BDC4FE004A6430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85003B6823BDC4FC004A6430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85003B6F23BDC4FC004A6430;
+			remoteInfo = tuqiu;
+		};
+		85003B8F23BDC4FE004A6430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85003B6823BDC4FC004A6430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85003B6F23BDC4FC004A6430;
+			remoteInfo = tuqiu;
+		};
+		85003B9B23BDC4FE004A6430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85003B6823BDC4FC004A6430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85003B9823BDC4FE004A6430;
+			remoteInfo = "tuqiu Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85003BB323BDC4FE004A6430 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85003B9A23BDC4FE004A6430 /* tuqiu Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		85003B7023BDC4FC004A6430 /* tuqiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuqiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85003B7323BDC4FC004A6430 /* tuqiu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tuqiu.entitlements; sourceTree = "<group>"; };
+		85003B7523BDC4FC004A6430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85003B7823BDC4FC004A6430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85003B7A23BDC4FC004A6430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85003B7C23BDC4FE004A6430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85003B7E23BDC4FE004A6430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85003B8323BDC4FE004A6430 /* tuqiuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuqiuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85003B8723BDC4FE004A6430 /* tuqiuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuqiuTests.swift; sourceTree = "<group>"; };
+		85003B8923BDC4FE004A6430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85003B8E23BDC4FE004A6430 /* tuqiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuqiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85003B9223BDC4FE004A6430 /* tuqiuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuqiuUITests.swift; sourceTree = "<group>"; };
+		85003B9423BDC4FE004A6430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85003B9923BDC4FE004A6430 /* tuqiu Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tuqiu Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85003B9E23BDC4FE004A6430 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		85003BA123BDC4FE004A6430 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		85003BA323BDC4FE004A6430 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		85003BA623BDC4FE004A6430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		85003BA823BDC4FE004A6430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85003BA923BDC4FE004A6430 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		85003BAB23BDC4FE004A6430 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		85003BAD23BDC4FE004A6430 /* tuqiu_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tuqiu_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85003B6D23BDC4FC004A6430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B8023BDC4FE004A6430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B8B23BDC4FE004A6430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B9623BDC4FE004A6430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003B9F23BDC4FE004A6430 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85003B6723BDC4FC004A6430 = {
+			isa = PBXGroup;
+			children = (
+				85003B7223BDC4FC004A6430 /* tuqiu */,
+				85003B8623BDC4FE004A6430 /* tuqiuTests */,
+				85003B9123BDC4FE004A6430 /* tuqiuUITests */,
+				85003BA023BDC4FE004A6430 /* tuqiu Extension */,
+				85003B9D23BDC4FE004A6430 /* Frameworks */,
+				85003B7123BDC4FC004A6430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85003B7123BDC4FC004A6430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85003B7023BDC4FC004A6430 /* tuqiu.app */,
+				85003B8323BDC4FE004A6430 /* tuqiuTests.xctest */,
+				85003B8E23BDC4FE004A6430 /* tuqiuUITests.xctest */,
+				85003B9923BDC4FE004A6430 /* tuqiu Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85003B7223BDC4FC004A6430 /* tuqiu */ = {
+			isa = PBXGroup;
+			children = (
+				85003B7323BDC4FC004A6430 /* tuqiu.entitlements */,
+				85003B7523BDC4FC004A6430 /* AppDelegate.swift */,
+				85003B7723BDC4FC004A6430 /* Main.storyboard */,
+				85003B7A23BDC4FC004A6430 /* ViewController.swift */,
+				85003B7C23BDC4FE004A6430 /* Assets.xcassets */,
+				85003B7E23BDC4FE004A6430 /* Info.plist */,
+			);
+			path = tuqiu;
+			sourceTree = "<group>";
+		};
+		85003B8623BDC4FE004A6430 /* tuqiuTests */ = {
+			isa = PBXGroup;
+			children = (
+				85003B8723BDC4FE004A6430 /* tuqiuTests.swift */,
+				85003B8923BDC4FE004A6430 /* Info.plist */,
+			);
+			path = tuqiuTests;
+			sourceTree = "<group>";
+		};
+		85003B9123BDC4FE004A6430 /* tuqiuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85003B9223BDC4FE004A6430 /* tuqiuUITests.swift */,
+				85003B9423BDC4FE004A6430 /* Info.plist */,
+			);
+			path = tuqiuUITests;
+			sourceTree = "<group>";
+		};
+		85003B9D23BDC4FE004A6430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85003B9E23BDC4FE004A6430 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85003BA023BDC4FE004A6430 /* tuqiu Extension */ = {
+			isa = PBXGroup;
+			children = (
+				85003BA123BDC4FE004A6430 /* SafariExtensionHandler.swift */,
+				85003BA323BDC4FE004A6430 /* SafariExtensionViewController.swift */,
+				85003BA523BDC4FE004A6430 /* SafariExtensionViewController.xib */,
+				85003BA823BDC4FE004A6430 /* Info.plist */,
+				85003BA923BDC4FE004A6430 /* script.js */,
+				85003BAB23BDC4FE004A6430 /* ToolbarItemIcon.pdf */,
+				85003BAD23BDC4FE004A6430 /* tuqiu_Extension.entitlements */,
+			);
+			path = "tuqiu Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85003B6F23BDC4FC004A6430 /* tuqiu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85003BB423BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiu" */;
+			buildPhases = (
+				85003B6C23BDC4FC004A6430 /* Sources */,
+				85003B6D23BDC4FC004A6430 /* Frameworks */,
+				85003B6E23BDC4FC004A6430 /* Resources */,
+				85003BB323BDC4FE004A6430 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85003B9C23BDC4FE004A6430 /* PBXTargetDependency */,
+			);
+			name = tuqiu;
+			productName = tuqiu;
+			productReference = 85003B7023BDC4FC004A6430 /* tuqiu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85003B8223BDC4FE004A6430 /* tuqiuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85003BB723BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiuTests" */;
+			buildPhases = (
+				85003B7F23BDC4FE004A6430 /* Sources */,
+				85003B8023BDC4FE004A6430 /* Frameworks */,
+				85003B8123BDC4FE004A6430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85003B8523BDC4FE004A6430 /* PBXTargetDependency */,
+			);
+			name = tuqiuTests;
+			productName = tuqiuTests;
+			productReference = 85003B8323BDC4FE004A6430 /* tuqiuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85003B8D23BDC4FE004A6430 /* tuqiuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85003BBA23BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiuUITests" */;
+			buildPhases = (
+				85003B8A23BDC4FE004A6430 /* Sources */,
+				85003B8B23BDC4FE004A6430 /* Frameworks */,
+				85003B8C23BDC4FE004A6430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85003B9023BDC4FE004A6430 /* PBXTargetDependency */,
+			);
+			name = tuqiuUITests;
+			productName = tuqiuUITests;
+			productReference = 85003B8E23BDC4FE004A6430 /* tuqiuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		85003B9823BDC4FE004A6430 /* tuqiu Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85003BB023BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiu Extension" */;
+			buildPhases = (
+				85003B9523BDC4FE004A6430 /* Sources */,
+				85003B9623BDC4FE004A6430 /* Frameworks */,
+				85003B9723BDC4FE004A6430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tuqiu Extension";
+			productName = "tuqiu Extension";
+			productReference = 85003B9923BDC4FE004A6430 /* tuqiu Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85003B6823BDC4FC004A6430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = vjyq;
+				TargetAttributes = {
+					85003B6F23BDC4FC004A6430 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					85003B8223BDC4FE004A6430 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 85003B6F23BDC4FC004A6430;
+					};
+					85003B8D23BDC4FE004A6430 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 85003B6F23BDC4FC004A6430;
+					};
+					85003B9823BDC4FE004A6430 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 85003B6B23BDC4FC004A6430 /* Build configuration list for PBXProject "tuqiu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85003B6723BDC4FC004A6430;
+			productRefGroup = 85003B7123BDC4FC004A6430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85003B6F23BDC4FC004A6430 /* tuqiu */,
+				85003B8223BDC4FE004A6430 /* tuqiuTests */,
+				85003B8D23BDC4FE004A6430 /* tuqiuUITests */,
+				85003B9823BDC4FE004A6430 /* tuqiu Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85003B6E23BDC4FC004A6430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003B7423BDC4FC004A6430 /* tuqiu.entitlements in Resources */,
+				85003B7D23BDC4FE004A6430 /* Assets.xcassets in Resources */,
+				85003B7923BDC4FC004A6430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B8123BDC4FE004A6430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B8C23BDC4FE004A6430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B9723BDC4FE004A6430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003BAC23BDC4FE004A6430 /* ToolbarItemIcon.pdf in Resources */,
+				85003BA723BDC4FE004A6430 /* SafariExtensionViewController.xib in Resources */,
+				85003BAA23BDC4FE004A6430 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85003B6C23BDC4FC004A6430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003B7B23BDC4FC004A6430 /* ViewController.swift in Sources */,
+				85003B7623BDC4FC004A6430 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B7F23BDC4FE004A6430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003B8823BDC4FE004A6430 /* tuqiuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B8A23BDC4FE004A6430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003B9323BDC4FE004A6430 /* tuqiuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85003B9523BDC4FE004A6430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85003BA423BDC4FE004A6430 /* SafariExtensionViewController.swift in Sources */,
+				85003BA223BDC4FE004A6430 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85003B8523BDC4FE004A6430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85003B6F23BDC4FC004A6430 /* tuqiu */;
+			targetProxy = 85003B8423BDC4FE004A6430 /* PBXContainerItemProxy */;
+		};
+		85003B9023BDC4FE004A6430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85003B6F23BDC4FC004A6430 /* tuqiu */;
+			targetProxy = 85003B8F23BDC4FE004A6430 /* PBXContainerItemProxy */;
+		};
+		85003B9C23BDC4FE004A6430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85003B9823BDC4FE004A6430 /* tuqiu Extension */;
+			targetProxy = 85003B9B23BDC4FE004A6430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85003B7723BDC4FC004A6430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85003B7823BDC4FC004A6430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85003BA523BDC4FE004A6430 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85003BA623BDC4FE004A6430 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85003BAE23BDC4FE004A6430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85003BAF23BDC4FE004A6430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85003BB123BDC4FE004A6430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "tuqiu Extension/tuqiu_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tuqiu Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vjyq.tuqiu-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		85003BB223BDC4FE004A6430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "tuqiu Extension/tuqiu_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tuqiu Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vjyq.tuqiu-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		85003BB523BDC4FE004A6430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tuqiu/tuqiu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tuqiu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vjyq.tuqiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		85003BB623BDC4FE004A6430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = tuqiu/tuqiu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tuqiu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vjyq.tuqiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		85003BB823BDC4FE004A6430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tuqiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vjyq.tuqiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuqiu.app/Contents/MacOS/tuqiu";
+			};
+			name = Debug;
+		};
+		85003BB923BDC4FE004A6430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tuqiuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vjyq.tuqiuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuqiu.app/Contents/MacOS/tuqiu";
+			};
+			name = Release;
+		};
+		85003BBB23BDC4FE004A6430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tuqiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vjyq.tuqiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = tuqiu;
+			};
+			name = Debug;
+		};
+		85003BBC23BDC4FE004A6430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = tuqiuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vjyq.tuqiuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = tuqiu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85003B6B23BDC4FC004A6430 /* Build configuration list for PBXProject "tuqiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85003BAE23BDC4FE004A6430 /* Debug */,
+				85003BAF23BDC4FE004A6430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85003BB023BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiu Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85003BB123BDC4FE004A6430 /* Debug */,
+				85003BB223BDC4FE004A6430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85003BB423BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85003BB523BDC4FE004A6430 /* Debug */,
+				85003BB623BDC4FE004A6430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85003BB723BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85003BB823BDC4FE004A6430 /* Debug */,
+				85003BB923BDC4FE004A6430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85003BBA23BDC4FE004A6430 /* Build configuration list for PBXNativeTarget "tuqiuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85003BBB23BDC4FE004A6430 /* Debug */,
+				85003BBC23BDC4FE004A6430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85003B6823BDC4FC004A6430 /* Project object */;
+}
