@@ -1,5 +1,3 @@
-# Dark side of OS X
-
 I have some data requirements under GUI when I use my Mac so I wrote the following scripts to resolve them. Details to follow. 
 
 First comes the db connection function. The apps mentioned here are using sqlite. Note that you can not retrieve any app data directly because of [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection). For accessing them, either change the permission or make a copy.
