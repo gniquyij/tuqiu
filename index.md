@@ -1,4 +1,4 @@
-I have some data requirements under GUI when I use my Mac so I wrote the following scripts to resolve them. Details to follow. 
+I have some data requirements under GUI when I use my Mac so I wrote the following scripts to resolve them. Details to follow. For an interactive version, you can visit [here](https://github.com/vjyq/tuqiu).
 
 First comes the db connection function. The apps mentioned here are using sqlite. Note that you can not retrieve any app data directly because of [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection). For accessing them, either change the permission or make a copy.
 
@@ -56,7 +56,7 @@ query_db(history, query)
 
 I periodically triage my notes through the following way then do a backup although it seems time machine may help which IMO is not that flexible. 
 
-Notes Data: `/Users/<REPLACE-WITH-YOUR-USERNAME>/Library/Group\ Containers/group.com.apple.notes/NoteStore.sqlite`
+Notes Data: `/Users/<REPLACE-WITH-YOUR-USERNAME>/Library/Containers/com.apple.Notes/Data/Library/Notes/NotesV7.storedata`
 
 
 ```python
