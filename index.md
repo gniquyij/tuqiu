@@ -92,3 +92,7 @@ import zlib
 note_0_readable = zlib.decompress(note_0, 16+zlib.MAX_WBITS)
 print (note_0_readable)
 ```
+
+<br>
+<div style="border-top:1px solid #e1e4e8;padding-top:0.3em">@2018-2020 YUQING JI</div>
+<div><a href="https://vjyq.github.io/">Blog</a> - <a href="mailto:yuqing.ji@outlook.com">Email</a> - <a href="https://github.com/vjyq">Github</a></div>
