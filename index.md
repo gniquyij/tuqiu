@@ -1,4 +1,4 @@
-I have some data requirements under GUI when I use my Mac so I wrote the following scripts to resolve them. Details to follow. For an interactive version, you can visit [here](https://github.com/vjyq/tuqiu).
+I have some data requirements under GUI when I use my Mac so I wrote the following scripts to resolve them. Details to follow. For an interactive version, you can visit [here](https://github.com/gniquyij/tuqiu).
 
 First comes the database connection function. The apps mentioned here are using sqlite. Note that you can not retrieve any app data directly because of [System Integrity Protection](https://en.wikipedia.org/wiki/System_Integrity_Protection). For accessing them, either change the permission or make a copy.
 
@@ -93,6 +93,6 @@ note_0_readable = zlib.decompress(note_0, 16+zlib.MAX_WBITS)
 print (note_0_readable)
 ```
 
-<div><a href="https://vjyq.github.io/daily"><img src="https://github.com/vjyq/vjyq.github.io/blob/master/avatar.png?raw=true" style="float:right;width:85px;height:85px"/></a></div><div style="border-top:1px solid #e1e4e8;padding-top:16px"></div>
+<div><a href="https://gniquyij.github.io/daily"><img src="https://github.com/gniquyij/gniquyij.github.io/blob/master/avatar.png?raw=true" style="float:right;width:85px;height:85px"/></a></div><div style="border-top:1px solid #e1e4e8;padding-top:16px"></div>
 <div>© 2018-2020 by YUQING JI</div>
-<div style="padding-top:0.3em"><a href="https://vjyq.github.io/en/about">About</a> | <a href="https://vjyq.github.io/">Blog</a> | <a href="mailto:yuqing.ji@outlook.com">Email</a> | <a href="https://github.com/vjyq">Github</a> | <a href="https://vjyq.github.io/zh">中文</a></div>
+<div style="padding-top:0.3em"><a href="https://gniquyij.github.io/en/about">About</a> | <a href="https://gniquyij.github.io/">Blog</a> | <a href="mailto:yuqing.ji@outlook.com">Email</a> | <a href="https://github.com/gniquyij">Github</a> | <a href="https://gniquyij.github.io/zh">中文</a></div>
